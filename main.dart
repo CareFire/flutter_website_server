@@ -41,11 +41,19 @@ void handleGET(HttpRequest request){
     ..close();
   }
 
-  if(action == 'getNews'){
+  else if(action == 'getNews'){
     print('获取新闻数据...');
     request.response
     ..statusCode=HttpStatus.ok
     ..write(json.encode(news))
+    ..close();
+  }
+  else if(action == 'contactCompany'){
+    var msg = request.uri.queryParameters['msg'];
+    print('客户留言为$msg');
+    request.response
+    ..statusCode=HttpStatus.ok
+    ..write('提交成功:$msg')
     ..close();
   }
 }
