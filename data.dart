@@ -74,7 +74,7 @@ var products = {
 };
 
 var news = {
-  "item":[
+  "items":[
     {
       "author":"张三",
       "title":"新闻1",
