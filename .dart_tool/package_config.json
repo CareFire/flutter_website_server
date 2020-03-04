@@ -1,0 +1,32 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "http_server",
+      "rootUri": "file:///Users/tinyfire/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/http_server-0.9.8+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "mime",
+      "rootUri": "file:///Users/tinyfire/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/mime-0.9.6+3",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "path",
+      "rootUri": "file:///Users/tinyfire/development/flutter/.pub-cache/hosted/pub.flutter-io.cn/path-1.6.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
+      "name": "flutter_website_server",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    }
+  ],
+  "generated": "2020-02-20T09:58:09.803556Z",
+  "generator": "pub",
+  "generatorVersion": "2.7.0"
+}
